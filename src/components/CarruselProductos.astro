@@ -11,20 +11,21 @@ const { producto } = Astro.props;
         class="size-[100%] object-cover absolute"
         src= {`/imgProductos/producto-${producto.id}.jpeg`} alt={producto.id}
         />
-      <span
+      <!-- <span
         class="absolute flex gap-2 top-3 left-4 border border-white text-xs rounded-xl px-4 py-2 font-semibold hover:bg-white hover:text-black">
-        Detalles
-        <ArrowRight />
-      </span>
+        WSP
+        <ArrowRight />   
+      </span> -->
     </div>
+
     <div class="flex flex-col gap-4">
         <div class="gap-4 border-b-[1px] border-gray-400">
           <div class="flex items-center gap-2">
 </div>
     <h5 class="text-2xl capitalize font-semibold">{producto.tipo}</h5>
-    <h5 class="text-xl capitalize font-semibold">
+    <h5 class="text-xl capitalize font-semibold">     
 </h5>
-    
+
 </div> 
 <style>
     .img-brillo::after {
@@ -62,3 +63,12 @@ const { producto } = Astro.props;
       }
     }
   </style>
+
+  <a 
+  href="http://wa.me/543516069431?text=Hola, podria enviar el catalogo de productos" target="_blank" >
+    <img  src ="icon/ArrowRight.astro"
+    class="absolute flex gap-2 top-3 left-4 border border-white text-xs rounded-xl px-4 py-2 font-semibold hover:bg-white hover:text-black">
+    WSP <ArrowRight />  
+  </a>
+
+

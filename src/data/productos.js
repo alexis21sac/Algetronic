@@ -5,11 +5,11 @@ export const productos = [
     },
     {
       id: 2,
-      tipo: "Electro",
+      tipo: "Herramientas",
     },
     {
       id: 3,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 4,
@@ -17,42 +17,42 @@ export const productos = [
     },
     {
       id: 5,
-      tipo: "Electro",
+      tipo: "Electrodomestico",
     },
     {
       id: 6,
-      tipo: "Electro",
+      tipo: "Electrodomestico",
     },
     {
       id: 7,
-      tipo: "Electro",
+      tipo: "Electrodomestico",
     },
     {
       id: 8,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 9,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 10,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 11,
-      tipo: "Electro",
+      tipo: "Electrodomestico",
     },
     {
       id: 12,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 13,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
     {
       id: 14,
-      tipo: "Electro",
+      tipo: "Electronica",
     },
   ];
